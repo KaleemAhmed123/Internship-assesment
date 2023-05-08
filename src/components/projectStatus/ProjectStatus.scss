@@ -1,0 +1,106 @@
+
+.status{
+    // border: 2px solid red;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px;
+
+    .labelBtn{
+        // border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 24px;
+        margin-right: 720px;
+        gap: 20px;
+    }
+}
+
+// reused in both so outside
+.project-container{
+    // border: 2px solid red;
+    width: 1050px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    border-bottom: 2px solid #fff;
+
+    .project-left{
+        width: 525px;
+        height: 130px;
+        display: flex;
+        // justify-content: space-between;
+        gap: 60px;
+        box-shadow: var(--box-shadow);
+        border-radius: 12px;
+
+
+        .first{
+            // border: 2px solid red;
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 6px;
+            min-width: 160px;
+            max-width: 350px;
+
+            .next-items{
+                display: flex;
+                gap: 65px;
+            }
+        }
+    }
+}
+.item-status-container{
+    .current-item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 25px;
+        gap: 12px;
+        // width: 952px;
+        // height: 207px;
+        background: var(--yellow-color);
+        box-shadow: 4px 4px 20px rgba(151, 151, 151, 0.25);
+        border-radius: 12px;
+        margin-top: 20px;
+        border-bottom: 2px solid #fff;
+        .labelBtn {
+            // border: 2px solid red;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px 24px;
+            gap: 20px;
+        }
+        .project-container{
+            .project-left{
+                box-shadow: none;
+                .desc {
+                        width: 285px;
+                    }
+            }
+        }
+    }
+}
+
+
+.item-status-container{
+    width: 1060px;
+    .next-items{
+        // border: 2px solid black;
+        width: 990px;
+        display: flex;
+        justify-content: space-between;
+        .para{
+            // border: 2px solid red;
+            width: 175px;
+            text-align: center;
+        }
+    }
+}

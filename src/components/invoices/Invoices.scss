@@ -1,0 +1,63 @@
+.invoices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+
+    margin: 55px auto;
+    width: 1050px;
+    // height: 155px;
+
+    .box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: var(--box-shadow);
+        border-radius: var(--border-radius);
+        padding: 25px;
+
+        .info{
+            width: 100%;
+            font-size: 20px;
+            .link{
+                color: inherit;
+            }
+        }
+
+        .paras, .labels{
+            display: flex;
+            align-items: flex-start;
+            padding: 0px 0px 12px;
+            gap: 20px;
+        
+           
+        }
+        .paras{
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--gray-color);
+        }
+        .paras:last-child{
+            border: none;
+        }
+        .labels{
+            gap: 30px;
+        }
+
+        .label{
+            width: 155px;
+        }
+        .btn-green{
+            width: 140px;
+            font-size: 13px;
+            padding: 3px 5px;
+        }
+        .para, .link{
+            // border: 1px solid red;
+            text-align: left;
+            width: 150px;
+            height: 100px;
+            min-height: 25px;
+        }
+    }
+}

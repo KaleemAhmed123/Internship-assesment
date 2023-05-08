@@ -1,0 +1,27 @@
+.ball-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+    .ball {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        box-shadow: var(--box-shadow);
+        background: var(--yellow-color);
+
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        
+        p{
+            display: -webkit-box;
+            -webkit-line-clamp: 6;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        }
+    }
+}
